@@ -49,18 +49,6 @@ const App = () => {
   )
 }
 
-// const App = () => {
-//   return (
-//     <div style={{margin: 'auto', width: 768, backgroundColor: '#EEE', padding: 12, borderRadius: 12}}>
-//       <label htmlFor='nome' style={{display: 'block', marginBottom: 4, }}>Nome:</label>
-//       <input type = 'text' id = 'nome' style={{paddingTop: 8, paddingBottom: 8, borderStyle: 'hidden', borderRadius: 8, 
-//         outline: 'none', width: '100%'}}/>
-//       <button style={{marginTop: 8, paddingTop: 8, paddingBottom: 8, backgroundColor: 'blueviolet', color: 'white', 
-//         border: 'none', borderRadius: 8, width: '100%'}}>Enviar</button>
-//     </div>
-//   )
-// }
-
 ReactDOM.render(
   <App />,
   document.querySelector('#root')
